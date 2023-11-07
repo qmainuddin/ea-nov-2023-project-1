@@ -13,7 +13,7 @@ import java.util.Map;
 
 @RequiredArgsConstructor
 @RestController
-@RequestMapping("/work-experience")
+@RequestMapping("/news")
 public class WorkExperience {
     private final WorkExperienceService workExperienceService;
     private final Converter converter;
